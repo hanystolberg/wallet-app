@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: rgb(210,23,168);
+    background: linear-gradient(54deg, rgba(210,23,168,1) 0%, rgba(30,39,195,1) 15%, rgba(64,246,189,1) 100%);
+    height: 100vh;
+}
+
+.tlprincipal {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.brpesquisa {
+    margin-top:30px;
+    padding: 10px;
+    background-color:#f8fafa;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: column;
+}
+
+button {
+    text-align: left;
+    font-size: 15px;
+    height: 28px;
+    background-color: #0059ff;
+    margin-top:10px;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    color:#f8fafa;
+    cursor: pointer;
+    transition: .5s;
+    padding: 5px 10px;
+}
+
+i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.list {
+    margin-top: 40px;
+}
+
+.sair1 {
+    margin-top:180%;
+}
+
+.sair button{
+    background-color: #8f8282;
+    color:#0e0a0a;
+}
+
+.conteudo {
+    margin-top: 30px;
+    background-color: #f8fafa;;
+    width: 108vh;
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+span {
+    margin: none;
+    color:#f8fafa;
+}
+
+p {
+    color:#000000;
+    padding: 8px;
+}
+
+.total {
+    margin-top:30px;
+    background-image:linear-gradient(to top,#f8fafa 60%,#0059ff 20%);
+    border-radius: 5px;
+    height: 70px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.total p {
+    font-size: 20px;
+}
+
+.transferencia {
+    margin-top:10px;
+    padding: 5px;
+    background-image:linear-gradient(to top,#f8fafa 60%,#0059ff 20%);
+    border-radius: 5px;
+    height: 70px;
+    text-align: center;box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+
+}
+
+.boleto {
+    margin-top:10px;
+    padding: 5px;
+    background-image:linear-gradient(to top,#f8fafa 60%,#0059ff 20%);
+    border-radius: 5px;
+    height: 70px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.debito {
+    margin-top:10px;
+    padding: 5px;
+    background-image:linear-gradient(to top,#f8fafa 60%,#0059ff 20%);
+    border-radius: 5px;
+    height: 70px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.pix {
+    margin-top:10px;
+    padding: 5px;
+    background-image:linear-gradient(to top,#f8fafa 60%,#0059ff 20%);
+    border-radius: 5px;
+    height: 70px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.dinheiro {
+    margin-top:10px;
+    padding: 5px;
+    background-image:linear-gradient(to top,#f8fafa 60%,#0059ff 20%);
+    border-radius: 5px;
+    height: 70px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.juros {
+    margin-top:10px;
+    padding: 5px;
+    background-image:linear-gradient(to top,#f8fafa 60%,#0059ff 20%);
+    border-radius: 5px;
+    height: 70px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.pagamentos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ld {
+    margin-right: 50px;
+}
